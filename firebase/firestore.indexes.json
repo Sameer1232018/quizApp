@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "quiz_sets",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "catId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "set_num",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
